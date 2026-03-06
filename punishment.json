@@ -1,0 +1,932 @@
+[
+    {
+        "ipc_section": "120B",
+        "description": "Punishment for criminal conspiracy",
+        "punishment": "Imprisonment may extend to 2 years or more, and fine"
+    },
+    {
+        "ipc_section": "121",
+        "description": "Waging war against Government of India",
+        "punishment": "Death or life imprisonment and fine"
+    },
+    {
+        "ipc_section": "121A",
+        "description": "Conspiracy to wage war",
+        "punishment": "Life imprisonment or imprisonment up to 10 years, and fine"
+    },
+    {
+        "ipc_section": "124A",
+        "description": "Sedition",
+        "punishment": "Imprisonment up to life and fine"
+    },
+    {
+        "ipc_section": "153A",
+        "description": "Promoting enmity between groups",
+        "punishment": "Imprisonment up to 5 years and fine"
+    },
+    {
+        "ipc_section": "188",
+        "description": "Disobedience to order by public servant",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "193",
+        "description": "False evidence",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "201",
+        "description": "Causing disappearance of evidence",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "295A",
+        "description": "Deliberate insult to religion",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "299",
+        "description": "Culpable homicide",
+        "punishment": "Varies depending on case"
+    },
+    {
+        "ipc_section": "300",
+        "description": "Murder",
+        "punishment": "Death or life imprisonment and fine"
+    },
+    {
+        "ipc_section": "302",
+        "description": "Punishment for murder",
+        "punishment": "Death or life imprisonment and fine"
+    },
+    {
+        "ipc_section": "304",
+        "description": "Culpable homicide not amounting to murder",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "304A",
+        "description": "Causing death by negligence",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "304B",
+        "description": "Dowry death",
+        "punishment": "Imprisonment minimum 7 years to life and fine"
+    },
+    {
+        "ipc_section": "305",
+        "description": "Abetment of suicide by child/insane",
+        "punishment": "Varies"
+    },
+    {
+        "ipc_section": "307",
+        "description": "Attempt to murder",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "323",
+        "description": "Voluntarily causing hurt",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "325",
+        "description": "Voluntarily causing grievous hurt",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "326",
+        "description": "Grievous hurt by dangerous means",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "326A",
+        "description": "Grievous hurt by acid attack",
+        "punishment": "Imprisonment not less than 10 years which may extend to life and fine"
+    },
+    {
+        "ipc_section": "326B",
+        "description": "Attempted acid attack",
+        "punishment": "Imprisonment 5 to 7 years and fine"
+    },
+    {
+        "ipc_section": "338",
+        "description": "Causing grievous hurt by endangering life",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "341",
+        "description": "Wrongful restraint",
+        "punishment": "Imprisonment up to 1 month or fine or both"
+    },
+    {
+        "ipc_section": "342",
+        "description": "Wrongful confinement",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "346",
+        "description": "Wrongful confinement to extort property",
+        "punishment": "Varies"
+    },
+    {
+        "ipc_section": "349",
+        "description": "Assault",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "354",
+        "description": "Assault on woman with intent to outrage modesty",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "354A",
+        "description": "Sexual harassment",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "354B",
+        "description": "Assault with intent to disrobe",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "354C",
+        "description": "Voyeurism",
+        "punishment": "Imprisonment 1 to 7 years and fine"
+    },
+    {
+        "ipc_section": "354D",
+        "description": "Stalking",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "357",
+        "description": "Assault with intent wrongfully to confine",
+        "punishment": "Varies"
+    },
+    {
+        "ipc_section": "360",
+        "description": "Kidnapping from lawful guardianship",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "361",
+        "description": "Kidnapping from India",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "363",
+        "description": "Kidnapping",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "365",
+        "description": "Kidnapping with intent to confine",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "370",
+        "description": "Trafficking of persons",
+        "punishment": "Imprisonment 7 to 10 years and fine"
+    },
+    {
+        "ipc_section": "375",
+        "description": "Rape",
+        "punishment": "Rigorous imprisonment 10 years to life and fine"
+    },
+    {
+        "ipc_section": "376",
+        "description": "Punishment for rape",
+        "punishment": "Rigorous imprisonment 10 to 20 years or life and fine"
+    },
+    {
+        "ipc_section": "379",
+        "description": "Theft",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "380",
+        "description": "Theft in dwelling house",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "390",
+        "description": "Robbery",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "395",
+        "description": "Dacoity",
+        "punishment": "Imprisonment for life or up to 10 years and fine"
+    },
+    {
+        "ipc_section": "394",
+        "description": "Voluntarily causing grievous hurt in committing robbery",
+        "punishment": "Imprisonment for life, or imprisonment of up to 10 years, and fine"
+    },
+    {
+        "ipc_section": "397",
+        "description": "Robbery or dacoity with attempt to cause grievous hurt",
+        "punishment": "Imprisonment 10 years or more and fine"
+    },
+    {
+        "ipc_section": "403",
+        "description": "Criminal misappropriation of property",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "393",
+        "description": "Voluntarily causing hurt in committing robbery",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "398",
+        "description": "Robbery or dacoity with attempt to cause death or grievous hurt",
+        "punishment": "Imprisonment not less than 10 years and fine"
+    },
+    {
+        "ipc_section": "405",
+        "description": "Criminal breach of trust",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "406",
+        "description": "Punishment for criminal breach of trust",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "410",
+        "description": "Receiving stolen property",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "415",
+        "description": "Cheating",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "420",
+        "description": "Cheating and dishonest inducement",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "425",
+        "description": "Mischief",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "426",
+        "description": "Punishment for mischief",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "441",
+        "description": "Criminal trespass",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "447",
+        "description": "Punishment for criminal trespass",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "458",
+        "description": "House-trespass in order to commit offence",
+        "punishment": "Imprisonment up to 2 years and fine"
+    },
+    {
+        "ipc_section": "462",
+        "description": "House-trespass after preparation for hurt or wrong",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "465",
+        "description": "Forgery",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "467",
+        "description": "Forgery of valuable security",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "468",
+        "description": "Forgery for cheating",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "471",
+        "description": "Using forged document as genuine",
+        "punishment": "Punishment provided for forgery"
+    },
+    {
+        "ipc_section": "490",
+        "description": "Having possession of document given under Sec 489",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "499",
+        "description": "Defamation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "503",
+        "description": "Criminal intimidation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "506",
+        "description": "Punishment for criminal intimidation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "511",
+        "description": "Attempt to commit offence",
+        "punishment": "Half of punishment for that offence or fine or both"
+    },
+    {
+        "ipc_section": "312",
+        "description": "Causing miscarriage",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "313",
+        "description": "Causing miscarriage without woman's consent",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "314",
+        "description": "Death caused by act done with intent to cause miscarriage",
+        "punishment": "Punished as culpable homicide"
+    },
+    {
+        "ipc_section": "315",
+        "description": "Act done with intent to prevent child being born alive",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "316",
+        "description": "Causing death of quick unborn child",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "318",
+        "description": "Concealment of birth by secret disposal of dead body",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "321",
+        "description": "Voluntarily causing hurt",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "324",
+        "description": "Voluntarily causing hurt by dangerous weapon",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "330",
+        "description": "Voluntarily causing grievous hurt to extort confession",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "332",
+        "description": "Voluntarily causing hurt to deter public servant",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "341",
+        "description": "Wrongful restraint",
+        "punishment": "Imprisonment up to 1 month or fine or both"
+    },
+    {
+        "ipc_section": "342",
+        "description": "Wrongful confinement",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "350",
+        "description": "Assault or criminal force to public servant",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "354",
+        "description": "Assault on woman to outrage modesty",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "362",
+        "description": "Abduction",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "363A",
+        "description": "Enforced disappearances",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "370",
+        "description": "Trafficking of persons",
+        "punishment": "Imprisonment 7–10 years and fine"
+    },
+    {
+        "ipc_section": "372",
+        "description": "Selling minor for prostitution",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "374",
+        "description": "Unlawful compulsory labour",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "380",
+        "description": "Theft in dwelling house",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "381",
+        "description": "Theft by clerk or servant of property in possession of master",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "390",
+        "description": "Robbery",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "392",
+        "description": "Punishment for robbery",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "397",
+        "description": "Robbery with attempt to cause grievous hurt",
+        "punishment": "Imprisonment not less than 10 years and fine"
+    },
+    {
+        "ipc_section": "403",
+        "description": "Dishonest misappropriation of property",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "406",
+        "description": "Criminal breach of trust",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "415",
+        "description": "Cheating",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "420",
+        "description": "Cheating and dishonestly inducing delivery of property",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "425",
+        "description": "Mischief",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "426",
+        "description": "Punishment for mischief",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "441",
+        "description": "Criminal trespass",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "447",
+        "description": "Punishment for criminal trespass",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "463",
+        "description": "Forgery",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "468",
+        "description": "Forgery for purpose of cheating",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "471",
+        "description": "Using forged document as genuine",
+        "punishment": "Punishment of forgery"
+    },
+    {
+        "ipc_section": "490",
+        "description": "Possession of stolen document",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "499",
+        "description": "Defamation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "503",
+        "description": "Criminal intimidation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "506",
+        "description": "Punishment for criminal intimidation",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "511",
+        "description": "Attempt to commit offences punishable",
+        "punishment": "Imprisonment up to half of the longest term prescribed or fine or both"
+    },
+    {
+        "ipc_section": "376A",
+        "description": "Punishment for causing death or persistent vegetative state of victim (rape related)",
+        "punishment": "Rigorous imprisonment with fine (varies)"
+    },
+    {
+        "ipc_section": "376AB",
+        "description": "Punishment for rape on woman under 12 years of age",
+        "punishment": "Imprisonment for life and fine"
+    },
+    {
+        "ipc_section": "376B",
+        "description": "Sexual intercourse by husband upon wife during separation",
+        "punishment": "Imprisonment and fine (varies)"
+    },
+    {
+        "ipc_section": "376C",
+        "description": "Sexual intercourse by a person in authority",
+        "punishment": "Rigorous imprisonment and fine"
+    },
+    {
+        "ipc_section": "376D",
+        "description": "Gang rape",
+        "punishment": "Rigorous imprisonment not less than 20 years and fine"
+    },
+    {
+        "ipc_section": "376DA",
+        "description": "Punishment for gang rape on woman under 16 years",
+        "punishment": "Imprisonment for life and fine"
+    },
+    {
+        "ipc_section": "376DB",
+        "description": "Punishment for gang rape on woman under 12 years",
+        "punishment": "Imprisonment for life and fine"
+    },
+    {
+        "ipc_section": "376E",
+        "description": "Punishment for repeat offenders of rape",
+        "punishment": "Imprisonment up to life and fine"
+    },
+    {
+        "ipc_section": "377",
+        "description": "Unnatural offences",
+        "punishment": "Imprisonment up to 10 years and fine (varies)"
+    },
+    {
+        "ipc_section": "383",
+        "description": "Extortion",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "384",
+        "description": "Punishment for extortion",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "303",
+        "description": "Punishment for culpable homicide of a person above 12 years",
+        "punishment": "Imprisonment for life or up to 10 years and fine"
+    },
+    {
+        "ipc_section": "306",
+        "description": "Abetment of suicide",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "308",
+        "description": "Attempt to commit suicide",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "309",
+        "description": "Attempt to commit suicide (older provision)",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "388",
+        "description": "Punishment for belonging to gang of thieves",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "389",
+        "description": "Putting person in fear of death or hurt to commit robbery",
+        "punishment": "Imprisonment not less than 7 years and fine"
+    },
+    {
+        "ipc_section": "397",
+        "description": "Robbery with attempt to cause grievous hurt or fear",
+        "punishment": "Imprisonment not less than 10 years and fine"
+    },
+    {
+        "ipc_section": "399",
+        "description": "Punishment for belonging to gang of dacoits",
+        "punishment": "Imprisonment for life or up to 10 years and fine"
+    },
+    {
+        "ipc_section": "403",
+        "description": "Dishonest misappropriation of property",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "404",
+        "description": "Dishonest misappropriation of property possessed by deceased person",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "407",
+        "description": "Criminal breach of trust by carrier, etc.",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "408",
+        "description": "Criminal breach of trust by clerk or servant",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "409",
+        "description": "Criminal breach of trust by public servant or banker",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "412",
+        "description": "Punishment for receiving stolen property stolen in the commission of a dacoity",
+        "punishment": "Imprisonment up to 10 years and fine"
+    },
+    {
+        "ipc_section": "418",
+        "description": "Cheating with knowledge that wrongful loss may ensue",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "419",
+        "description": "Punishment for cheating by personation",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "427",
+        "description": "Mischief causing damage to property",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "428",
+        "description": "Mischief by killing or maiming animal",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "430",
+        "description": "Mischief by injury to works of irrigation etc.",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "431",
+        "description": "Mischief by injury to public road, bridge etc.",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "432",
+        "description": "Mischief causing inundation etc.",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "433",
+        "description": "Mischief causing damage to sea-mark or light-house",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "434",
+        "description": "Mischief by removing boundary mark",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "435",
+        "description": "Mischief by fire or explosive substance",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "450",
+        "description": "Cooling of blood",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "452",
+        "description": "House-trespass after preparation for hurt etc.",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "459",
+        "description": "House-trespass after preparation for hurt etc.",
+        "punishment": "Imprisonment up to 3 years and fine"
+    },
+    {
+        "ipc_section": "479",
+        "description": "Counterfeiting coin",
+        "punishment": "Imprisonment up to life and fine"
+    },
+    {
+        "ipc_section": "480",
+        "description": "Using as genuine a forged note or coin",
+        "punishment": "Punishment for forgery"
+    },
+    {
+        "ipc_section": "494",
+        "description": "Marrying again during lifetime of husband or wife",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    {
+        "ipc_section": "509",
+        "description": "Word, gesture or act intended to insult the modesty of a woman",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "228A",
+        "description": "Disclosure of identity of sexual offense victim",
+        "punishment": "Imprisonment up to 2 years and fine"
+    },
+    {
+        "ipc_section": "268",
+        "description": "Public nuisance",
+        "punishment": "Imprisonment up to 1 month or fine up to ₹500 or both"
+    },
+    {
+        "ipc_section": "269",
+        "description": "Negligent act likely to spread infection of disease dangerous to life",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "270",
+        "description": "Malignant act likely to spread infection of disease dangerous to life",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "271",
+        "description": "Disobedience to quarantine rule",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "272",
+        "description": "Adulteration of food or drink",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "273",
+        "description": "Sale of noxious food or drink",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "274",
+        "description": "Obscene matter",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "275",
+        "description": "Sale of obscene books, etc.",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "276",
+        "description": "Public nuisance by noise or singing obscene songs",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "277",
+        "description": "Water or noxious thing on a public way causing nuisance",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "278",
+        "description": "Making atmosphere noxious to health",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "279",
+        "description": "Rash driving or riding on a public way",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "280",
+        "description": "Endangering life or personal safety by rash driving",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "281",
+        "description": "Causing grievous hurt by rash driving",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "282",
+        "description": "Causing hurt by driving vehicle",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "283",
+        "description": "Danger or obstruction in public way",
+        "punishment": "Imprisonment up to 1 month or fine or both"
+    },
+    {
+        "ipc_section": "284",
+        "description": "Negligent conduct with respect to machinery",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "285",
+        "description": "Negligent conduct with respect to fire or combustible matter",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "286",
+        "description": "Negligent conduct with respect to poisonous substance",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "287",
+        "description": "Negligent conduct with respect to weapons",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "290",
+        "description": "Punishment for public nuisance",
+        "punishment": "Fine up to ₹200"
+    },
+    {
+        "ipc_section": "294",
+        "description": "Obscene acts and songs",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "443",
+        "description": "Making finger rings, ear-rings or other articles of value without due authority",
+        "punishment": "Imprisonment up to 3 months or fine or both"
+    },
+    {
+        "ipc_section": "509",
+        "description": "Word, gesture or act intended to insult modesty of a woman",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    {
+        "ipc_section": "510",
+        "description": "Misconduct in public by drunken person",
+        "punishment": "Simple imprisonment up to 24 hrs or fine up to ₹10 or both"
+    },
+    {
+        "ipc_section": "511",
+        "description": "Punishment for attempting to commit offences",
+        "punishment": "Up to half the term or fine or both"
+    },
+    {
+        "ipc_section": "185",
+        "description": "Negligent conduct with respect to ship or vessel",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "207",
+        "description": "False charge of offence made with intent to injure",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "242",
+        "description": "Using a false trade description",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "252",
+        "description": "Sale of noxious food or drink",
+        "punishment": "Imprisonment up to 1 year or fine or both"
+    },
+    {
+        "ipc_section": "253",
+        "description": "Adulteration of food or drink",
+        "punishment": "Imprisonment up to 6 months or fine or both"
+    },
+    {
+        "ipc_section": "423",
+        "description": "Mischief causing damage to property",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "464",
+        "description": "Forgery",
+        "punishment": "Imprisonment up to 2 years or fine or both"
+    },
+    {
+        "ipc_section": "486",
+        "description": "Forgery with intent to cheat",
+        "punishment": "Imprisonment up to 7 years and fine"
+    }
+]

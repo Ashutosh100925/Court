@@ -1,0 +1,72 @@
+description,ipc_section,evidence_strength,witness_count,severity_level,bail_granted,priority_rank
+Dowry death,304B,10,3,10,0,1
+Murder,302,10,4,10,0,1
+Rape,375,10,4,10,0,1
+Punishment for rape,376,10,4,10,0,1
+Aggravated sexual assault,376A,10,4,10,0,1
+Gang rape,376D,10,4,10,0,1
+Attempt to commit rape,376B,9,3,9,0,1
+Waging war against Government,121,10,5,10,0,1
+Dowry harassment case,498A,7,4,6,0,2
+Cruelty by husband towards wife,498A,8,3,7,0,2
+Voluntarily causing grievous hurt with iron rod,325,7,3,7,0,2
+Assault on woman with intent to outrage modesty,354,9,3,8,0,2
+Sexual harassment,354A,8,3,7,0,2
+Criminal intimidation with threat to life,506,6,2,6,1,2
+Attempt to murder with knife,307,8,3,9,0,2
+Attempt to murder by poisoning,307,9,2,9,0,2
+Culpable homicide not amounting to murder,304,9,4,9,0,2
+Counterfeiting currency notes,489A,10,2,10,0,2
+Kidnapping of minor for ransom,363,9,3,9,0,2
+Kidnapping woman to compel marriage,366,9,3,9,0,2
+Dacoity with murder,396,10,4,10,0,2
+Voluntarily causing hurt to extort confession,330,8,2,8,0,2
+Voluntarily causing grievous hurt,325,8,3,8,0,2
+Threatening to kill,506,8,2,8,0,2
+Abetment of suicide due to harassment,306,8,3,9,0,2
+Giving false evidence in court,172,9,3,8,0,3
+Fraudulent misappropriation of accounts,420,9,5,8,0,3
+Financial fraud scam,420,9,5,8,0,3
+Employee cheated company accounts to gain profit,420,9,3,8,0,3
+Person forged signature on legal document,420,8,1,7,0,3
+Forgery of property documents,420,8,3,6,0,3
+Forgery of valuable security document,467,9,1,9,0,3
+Using forged document as genuine,471,8,2,7,0,3
+Criminal breach of trust by employee,406,7,3,6,0,3
+Cheating by impersonation in online transaction,419,8,2,7,0,3
+House breaking and theft at night,457,8,2,7,0,3
+Robbery at night using weapon,392,8,2,8,0,3
+Robbery,392,8,2,8,0,3
+Attempt to commit robbery,393,7,2,7,0,3
+Dacoity,395,9,3,9,0,3
+Extortion by threatening businessman,384,7,2,7,0,3
+Fraudulent transfer of property,405,8,3,8,0,3
+Cheating by person entrusted with property,406,8,3,8,0,3
+Forgery for purpose of cheating,468,8,2,7,0,3
+Arson causing damage to house property,436,9,2,9,0,3
+Attempt to commit suicide under pressure,309,4,1,3,1,4
+Minor assault case,323,3,1,2,1,4
+Simple hurt caused during street fight,323,4,2,3,1,4
+Rash driving causing accident,279,5,2,5,1,4
+Rash driving causing injury,279,5,2,5,1,4
+Public nuisance causing obstruction,268,3,1,2,1,4
+Obscene acts in public place,294,4,2,3,1,4
+Criminal trespass into private property,447,5,1,4,1,4
+House‑trespass,441,5,1,5,1,4
+Lurking house‑trespass after sunset,454,6,2,6,0,4
+Dishonest concealment of stolen property,414,6,1,5,1,4
+Receiving stolen property knowingly,411,6,1,5,1,4
+Unlawful assembly causing violence,147,6,5,6,1,4
+Unlawful assembly,141,6,2,6,1,4
+Rioting with deadly weapon,148,8,4,8,0,3
+Rioting,146,7,3,7,0,3
+Obstructing public servant in discharge of duty,186,6,2,6,1,4
+Public servant disobeying law,166,7,2,7,0,3
+Public servant framing incorrect record,167,7,2,7,0,3
+Counterfeiting currency notes,489A,10,2,10,0,2
+Waging war against Government,121,10,5,10,0,1
+Sedition against Government,124A,9,4,9,0,1
+Misappropriation of entrusted funds,403,7,2,6,0,3
+Dishonest misappropriation of property,403,7,2,6,0,3
+Criminal breach of trust by carrier,407,7,2,6,0,3
+Dishonest inducement to deliver property,402,7,2,6,0,3

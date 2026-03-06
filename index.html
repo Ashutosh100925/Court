@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyayaAI - Intelligent Legal Judgment Assistant</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme">
+    <div class="cursor-glow" id="cursorGlow"></div>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Landing Page (Intro) -->
+    <div id="landing-page" class="landing-container active">
+        <!-- Performance Illusion Layer -->
+        <div id="hologram-init-overlay" class="hologram-init-overlay">
+            <div class="hologram-loader">
+                <div class="holo-ring r1"></div>
+                <div class="holo-ring r2"></div>
+                <!-- Scanning grid effect to hologram -->
+                <div class="holo-grid"></div>
+            </div>
+            <div class="hologram-text">Initializing Judicial Intelligence...</div>
+        </div>
+
+        <!-- Soft Radial Framing Vignette -->
+        <div class="hero-vignette"></div>
+
+        <!-- Layer 1 & 2: Background & Grid -->
+        <div class="landing-background" id="parallax-bg">
+            <!-- Micro Judicial Watermark Subconscious Branding -->
+            <svg class="judicial-watermark" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.03)"
+                stroke-width="0.5">
+                <path
+                    d="M12 2L12 22M12 7L4 7M12 7L20 7M4 7L2 14C2 15.1 2.9 16 4 16C5.1 16 6 15.1 6 14L4 7ZM20 7L18 14C18 15.1 18.9 16 20 16C21.1 16 22 15.1 22 14L20 7ZM9 22L15 22" />
+            </svg>
+
+            <!-- Vertical Light Columns -->
+            <div class="light-column left"></div>
+            <div class="light-column right"></div>
+
+            <div class="judicial-grid"></div>
+            <div class="grid-scanline"></div>
+
+            <!-- Contextual Glows -->
+            <div class="glow-bg top-right"></div>
+            <div class="glow-bg bottom-left"></div>
+
+            <!-- Dynamic AI Pulse Background behind headline -->
+            <div class="hero-radial-pulse"></div>
+        </div>
+
+        <nav class="landing-nav glass-nav elevate-layer" id="parallax-nav">
+            <div class="brand-logo logo">
+                <i class="fa-solid fa-scale-balanced glow-icon"></i>
+                <span>Nyaya<span class="highlight">AI</span></span>
+            </div>
+            <button class="btn-secondary" onclick="enterDashboard()">Sign In</button>
+        </nav>
+
+        <!-- Layer 4: Foreground Hero Content -->
+        <main class="hero-split-layout elevate-layer" id="parallax-content">
+
+            <!-- Floating Faint Background Info Cards -->
+            <div class="floating-info-card fic-1"><i class="fa-solid fa-brain"></i> IPC Analysis Engine</div>
+            <div class="floating-info-card fic-2"><i class="fa-solid fa-network-wired"></i> Case Similarity</div>
+            <div class="floating-info-card fic-3"><i class="fa-solid fa-shield-halved"></i> Risk Assessment AI</div>
+
+            <!-- LEFT ZONE: Branding & Text -->
+            <div class="hero-content">
+                <div class="badge-tag pulse glass-badge slide-down-reveal"><i class="fa-solid fa-gavel"></i> Future of
+                    Indian Judiciary</div>
+
+                <h1 class="hero-title staggered-reveal">
+                    <span class="reveal-word font-ultra text-white">AI</span> <span class="reveal-word">That</span>
+                    <span class="reveal-word">Assists</span> <span class="reveal-word">Justice,</span><br>
+                    <span class="text-gradient shimmer-effect title-p2">Not Replaces It.</span>
+                </h1>
+
+                <p class="hero-subtitle delayed-fade">
+                    Premium, ultra-modern legal intelligence platform. Built specifically for Judges,
+                    Lawyers, and the Court System.
+                </p>
+
+                <div class="cta-group btn-float-up">
+                    <button class="btn-primary large intelligent-btn" onclick="enterDashboard()">
+                        <i class="fa-solid fa-rocket"></i> Launch Dashboard
+                        <div class="btn-light-sweep"></div>
+                    </button>
+                </div>
+
+                <!-- Authority Trust Strip -->
+                <div class="authority-strip delayed-fade">
+                    <span>Built for the Future of Indian Judiciary</span>
+                    <div class="auth-icons">
+                        <span><i class="fa-solid fa-shield-halved"></i> Secure</span>
+                        <span><i class="fa-solid fa-microchip"></i> AI-Assisted</span>
+                        <span><i class="fa-solid fa-check-double"></i> Verified</span>
+                        <span><i class="fa-solid fa-bolt"></i> Real-time</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT ZONE: AI Mock Visualization -->
+            <div class="hero-visual delayed-fade">
+                <div class="visual-mockup glass-panel">
+                    <!-- Glass Mock Header -->
+                    <div class="mock-header flex-between mb-3">
+                        <div class="mock-title"><i class="fa-solid fa-scale-balanced text-blue"></i> Judicial Intel Core
+                        </div>
+                        <div class="status-dot glow-green pulse"></div>
+                    </div>
+
+                    <!-- Mock Processing Node Visual -->
+                    <div class="mock-nodes">
+                        <div class="mock-central text-purple"><i class="fa-solid fa-brain"></i>
+                            <div class="mock-ring"></div>
+                        </div>
+                        <div class="mock-conn line-1"></div>
+                        <div class="mock-conn line-2"></div>
+                        <div class="mock-conn line-3"></div>
+                        <div class="mock-node n-top">IPC<br>Scan</div>
+                        <div class="mock-node n-left">Fraud<br>Risk</div>
+                        <div class="mock-node n-right">Similar<br>Cases</div>
+                    </div>
+
+                    <!-- Mock Terminal Analysis -->
+                    <div class="mock-terminal mt-3">
+                        <div class="mt-line">> Scanning 14,000 precedents...</div>
+                        <div class="mt-line highlight">> Found 94% similarity to SC 2018.</div>
+                        <div class="mt-line">> Analyzing bias metrics... <span class="text-green">PASS</span></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Main Dashboard -->
+    <div id="dashboard" class="dashboard-container hidden">
+
+        <!-- Left Sidebar: Users Panel -->
+        <aside class="sidebar left-panel glass-panel">
+            <div class="brand logo" style="margin-bottom: 4px;">
+                <i class="fa-solid fa-scale-balanced glow-icon"></i> Nyaya<span class="highlight">AI</span>
+            </div>
+            <div class="jiss-subtitle mb-3"
+                style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px;">
+                Judicial Intelligence Support System (JISS)
+            </div>
+
+            <div class="role-switcher">
+                <label>Active Profile:</label>
+                <select id="roleSelect" class="glass-select" onchange="changeRole()">
+                    <option value="judge">Hon. Judge</option>
+                    <option value="lawyer">Defense / Prosecutor</option>
+                    <option value="clerk">Court Clerk</option>
+                    <option value="business">Business / Corporate</option>
+                </select>
+            </div>
+
+            <div class="profile-card">
+                <img src="https://i.pravatar.cc/150?img=11" alt="Profile" class="avatar" id="userAvatar">
+                <div class="profile-info">
+                    <h3 id="userName" class="sensitive-data">Hon. Justice Sharma</h3>
+                    <p id="userRole" class="text-emerald sensitive-data">Supreme Court</p>
+                </div>
+                <div class="notification-badge pulse"><i class="fa-regular fa-bell"></i><span class="dot"></span></div>
+            </div>
+
+            <nav class="side-nav">
+                <a href="#" class="nav-item active"><i class="fa-solid fa-folder-open"></i> Smart Case Tracker</a>
+                <a href="#" class="nav-item" onclick="showModal('performance')"><i class="fa-solid fa-chart-line"></i>
+                    Court Performance</a>
+                <a href="#" class="nav-item focus-blur" id="confidentialToggle" onclick="toggleConfidentialMode()"><i
+                        class="fa-solid fa-eye-slash"></i> Confidential Mode</a>
+                <a href="#" class="nav-item" id="judgeSecureBtn" onclick="openSecureModal()"><i class="fa-solid fa-lock"
+                        style="color: var(--accent-red)"></i> <span
+                        style="color: var(--accent-red); font-weight: 600;">Judge Secure Section</span></a>
+            </nav>
+
+            <div class="case-priority">
+                <h4>Priority Queue</h4>
+                <div class="priority-list">
+                    <div class="p-item glass-card border-red">
+                        <span class="color-dot bg-red"></span>
+                        <div class="p-info"><strong class="sensitive-data">Bail Hearing</strong><br><span
+                                class="micro sensitive-data">State vs. Ramesh</span>
+                        </div>
+                        <span class="time text-red">10:30 AM</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ethical AI & Trust Signals -->
+            <div class="ethical-safeguards mt-3" style="font-size: 11px; color: var(--text-muted);">
+                <h4
+                    style="font-size: 10px; text-transform: uppercase; margin-bottom: 12px; color: var(--accent-green); letter-spacing: 0.5px;">
+                    Ethical AI Safeguards</h4>
+                <div style="display:flex; flex-direction:column; gap:8px;">
+                    <div><i class="fa-solid fa-check text-green" style="margin-right:8px;"></i> Bias Monitoring Active
+                    </div>
+                    <div><i class="fa-solid fa-check text-green" style="margin-right:8px;"></i> Explainability Enabled
+                    </div>
+                    <div><i class="fa-solid fa-check text-green" style="margin-right:8px;"></i> Human Override Available
+                    </div>
+                    <div><i class="fa-solid fa-check text-green" style="margin-right:8px;"></i> Data Encryption Secured
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center: AI-Driven Research Engine -->
+        <main class="main-stage">
+            <div class="system-status-bar mb-3"
+                style="display: flex; justify-content: space-between; align-items: center; background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.2); padding: 10px 15px; border-radius: 8px; font-size: 12px; font-weight: 600; color: var(--accent-green);">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <span class="status-dot glow-green"></span> SYSTEM STATUS: OPERATIONAL
+                </div>
+                <div
+                    style="display: flex; gap: 15px; color: var(--text-muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px;">
+                    <span><i class="fa-solid fa-shield-halved" style="color: var(--accent-blue);"></i> Secure Mode
+                        Enabled</span>
+                    <span><i class="fa-solid fa-gavel" style="color: var(--accent-purple);"></i> Court Session
+                        Active</span>
+                </div>
+            </div>
+
+            <div class="input-panel glass-panel glow-border-blue">
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Search Case ID, Court Order No, IPC Section..."
+                        class="smart-search">
+                    <button class="mic-btn pulse" id="voiceBtn" title="Voice Query">
+                        <i class="fa-solid fa-microphone"></i>
+                    </button>
+                </div>
+
+                <div class="voice-waveform hidden" id="waveform">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <span>Listening...</span>
+                </div>
+
+                <!-- Case Analysis Input (RAG Integration) -->
+                <div class="case-analysis-panel glass-panel mt-3">
+                    <div class="card-header mb-2 flex-between">
+                        <h3><i class="fa-solid fa-scale-balanced text-blue"></i> AI Case Analyzer</h3>
+                        <button class="btn-secondary hidden" id="toggleReasoningBtn"
+                            style="padding: 4px 10px; font-size: 10px; border-radius: 4px;">
+                            <i class="fa-solid fa-eye text-blue"></i> Show AI Reasoning
+                        </button>
+                    </div>
+
+                    <div class="heatmap-container">
+                        <textarea id="caseAnalysisInput" class="smart-textarea"
+                            placeholder="Paste or type case facts here to predict applicable IPC sections... Press Enter to analyze."></textarea>
+                        <div id="heatmapOverlay" class="heatmap-overlay hidden"></div>
+                    </div>
+
+                    <!-- Prediction Container -->
+                    <div id="ipcPredictionContainer" class="hidden mt-3">
+                        <div class="flex-between mb-2">
+                            <h4 class="text-blue micro-text">Predicted IPC Sections (RAG Model):</h4>
+                            <button class="btn-micro outline" id="btnNarrate" onclick="narrateExplanation()"
+                                title="Narrate AI Explanation"
+                                style="background:transparent; border:none; cursor:pointer;">
+                                <i class="fa-solid fa-volume-high text-blue" style="font-size: 14px;"></i>
+                            </button>
+                        </div>
+                        <div id="ipcResults" class="ipc-tags">
+                            <!-- Tags will be injected here -->
+                        </div>
+
+                        <div class="sim-counter-box mt-3" id="similarityCounterBox">
+                            <div
+                                style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 5px;">
+                                Similar Precedents Found</div>
+                            <div class="sim-number" id="simCounterValue">0</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modules-grid">
+                <!-- <div class="module-card glass-panel flex-col" id="idVerificationModule">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-id-card text-blue"></i> Biometric ID Verification</h3>
+                    </div>
+
+                    <div class="scanner-wrapper" id="scannerWrapper">
+                        <video id="idVideo" autoplay playsinline></video>
+                        <div class="scanner-corner top-left"></div>
+                        <div class="scanner-corner top-right"></div>
+                        <div class="scanner-corner bottom-left"></div>
+                        <div class="scanner-corner bottom-right"></div>
+                        <div class="scan-line" id="scanLine"></div>
+                    </div>
+                    <div class="scanner-text" id="scannerText">Awaiting Video Feed...</div>
+
+                    <div style="margin-top:15px; display:flex; gap:10px;">
+                        <button class="btn-primary" style="flex:1" onclick="startIDCamera()">Init Scanner</button>
+                        <button class="btn-success"
+                            style="flex:1; background: var(--accent-green); border-radius: 8px; color: white;"
+                            onclick="verifyIDCard()">Scan ID</button>
+                    </div>
+
+                    <div id="idResult" style="margin-top:10px; font-size:0.9rem;"></div>
+                </div> -->
+                <!-- Fraud / Delay Detection -->
+                <!-- <div class="module-card fraud-card glass-panel flex-col">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-triangle-exclamation text-red"></i> Risk & Delay Engine</h3>
+                    </div>
+
+                    <div class="gauge-container">
+                        <div class="gauge-background"></div>
+                        <div class="gauge-fill" id="riskFillBar" data-target="78"></div>
+                    </div>
+                    <div style="text-align: center; margin-top: -15px; margin-bottom: 10px;">
+                        <span class="risk-value" id="riskValueText" style="font-size: 24px;">0%</span>
+                        <div style="font-size: 11px; color: var(--text-muted); text-transform: uppercase;">Risk Level
+                        </div>
+                    </div>
+
+                    <div
+                        style="font-size: 10px; color: var(--text-muted); line-height: 1.4; border-top: 1px solid var(--panel-border); padding-top: 10px;">
+                        Based on 12,540 Historical Judgments (1950–2023)<br>
+                        <span style="color: var(--accent-blue); font-weight: 600;">Model Confidence: 89.4%</span>
+                    </div>
+                </div> -->
+
+                <!-- Predictive Analytics -->
+                <!-- <div class="module-card predict-card glass-panel flex-col">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-bolt text-blue"></i> Predictive Analytics</h3>
+                    </div>
+                    <p>Bail Approval Likelihood: 65%</p>
+                </div> -->
+
+
+
+                <!-- AI Case DNA View (Wow Feature) -->
+                <div class="dna-view glass-panel glow-border-emerald full-width">
+                    <div class="card-header mb-0">
+                        <h3><i class="fa-solid fa-dna text-emerald"></i> AI Case DNA Map</h3>
+                    </div>
+                    <!-- Tooltip Container -->
+                    <div id="dnaTooltip" class="dna-tooltip"></div>
+                    <div class="dna-visualization" id="dnaVisualizer"></div>
+                    <div id="dnaComplexityMetric" class="dna-metric">Case Complexity Index: --%</div>
+                </div>
+
+                <!-- Semantic Search Results -->
+                <div class="module-card search-card glass-panel full-width">
+                    <div class="card-header flex-between mb-3">
+                        <h3><i class="fa-solid fa-brain text-purple"></i> Semantic Contextual Search</h3>
+                        <div class="filters" style="display:flex; gap:10px;">
+                            <select class="glass-select" style="padding: 5px; font-size:12px;">
+                                <option>Supreme Court</option>
+                                <option>High Court</option>
+                            </select>
+                            <select class="glass-select" style="padding: 5px; font-size:12px;">
+                                <option>All States</option>
+                                <option>Delhi</option>
+                            </select>
+                            <select class="glass-select" style="padding: 5px; font-size:12px;">
+                                <option>IPC Section 420</option>
+                                <option>CrPC 439</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="smart-results">
+                        <div class="ai-highlight glow-border-purple"
+                            style="background: rgba(124, 58, 237, 0.1); padding: 15px; border-radius: 8px; border-left: 3px solid var(--accent-purple); font-size: 13px;">
+                            "The intent to defraud was established based on <mark
+                                style="background: var(--accent-purple); color: white; padding: 2px 5px; border-radius: 4px;">Section
+                                420 IPC</mark>, corroborated by previous landmark rulings..."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Panel: Outputs -->
+        <aside class="right-panel">
+            <!-- Digital Court Clock -->
+            <div class="court-clock glass-panel" style="text-align: center; padding: 15px;">
+                <div id="liveClockTime"
+                    style="font-size: 22px; font-weight: 700; font-family: monospace; letter-spacing: 2px; color: var(--text-main);">
+                    --:--:--</div>
+                <div id="liveClockDate"
+                    style="font-size: 11px; color: var(--accent-blue); text-transform: uppercase; margin-top: 5px; font-weight: 600; letter-spacing: 1px;">
+                    -- --- ----</div>
+            </div>
+
+            <!-- Activity Log -->
+            <div class="activity-log glass-panel" style="padding: 15px;">
+                <h4
+                    style="font-size: 11px; text-transform: uppercase; margin-bottom: 12px; color: var(--text-muted); border-bottom: 1px solid var(--panel-border); padding-bottom: 8px; display:flex; justify-content:space-between;">
+                    <span>System Activity</span>
+                    <i class="fa-solid fa-circle-notch fa-spin" style="color: var(--accent-purple);"></i>
+                </h4>
+                <div id="activityLogContainer"
+                    style="display: flex; flex-direction: column; gap: 10px; font-size: 11px; color: var(--text-main);">
+                    <!-- Logs injected via JS -->
+                </div>
+            </div>
+
+            <div class="outputs-container">
+                <div class="output-card slide-in border-left-red">
+                    <div class="o-icon text-red"><i class="fa-solid fa-circle-exclamation"></i></div>
+                    <div class="o-data">
+                        <h4>Bias Detection Indicator</h4>
+                        <p>Potential regional bias flagged.</p>
+                    </div>
+                </div>
+
+                <div class="output-card slide-in border-left-green" style="animation-delay: 0.1s;">
+                    <div class="o-icon text-green"><i class="fa-solid fa-language"></i></div>
+                    <div class="o-data">
+                        <h4>Multilingual Gen AI</h4>
+                        <p>Translated to <strong>Hindi</strong>. <a href="#" onclick="showModal('translation')"
+                                style="color:var(--accent-blue); text-decoration:none;">Side-by-side view</a></p>
+                    </div>
+                </div>
+
+                <div class="output-card slide-in border-left-yellow" style="animation-delay: 0.2s;">
+                    <div class="o-icon text-yellow"><i class="fa-solid fa-hourglass-end"></i></div>
+                    <div class="o-data">
+                        <h4>Delay Simulator</h4>
+                        <p>If adjourned today: Next slot <strong class="text-yellow">+45 days</strong>.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emerging Legal Intelligence Monitor -->
+            <div class="legal-monitor glass-panel slide-in" id="legalMonitorPanel"
+                style="animation-delay: 0.3s; margin-top: 20px;">
+                <div class="card-header flex-between"
+                    style="border-bottom: 1px solid var(--panel-border); padding-bottom: 10px; margin-bottom: 15px;">
+                    <h3><i class="fa-solid fa-satellite-dish text-blue"></i> Emerging Legal
+                        Intel</h3>
+                    <div class="trend-indicator micro" style="color: var(--accent-emerald); font-weight: 600;">
+                        Velocity ↑ 12%
+                    </div>
+                </div>
+
+                <div class="monitor-section mb-4">
+                    <h4 class="micro-text text-muted mb-2" style="text-transform: uppercase; letter-spacing: 1px;">
+                        Today's Trend Summary</h4>
+                    <div class="trend-summary-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+                        <div class="trend-pill" data-type="violent">Violent: <span class="count">--</span></div>
+                        <div class="trend-pill" data-type="sexual">Sexual: <span class="count">--</span></div>
+                        <div class="trend-pill" data-type="economic">Economic: <span class="count">--</span></div>
+                        <div class="trend-pill" data-type="cyber">Cyber: <span class="count">--</span></div>
+                    </div>
+                </div>
+
+                <div class="monitor-section">
+                    <h4 class="micro-text text-muted mb-2" style="text-transform: uppercase; letter-spacing: 1px;">
+                        Structured Reports</h4>
+                    <div id="legalReportsContainer" class="reports-list"
+                        style="display: flex; flex-direction: column; gap: 10px; max-height: 300px; overflow-y: auto; padding-right: 5px;">
+                        <div class="loader-placeholder micro-text text-muted">Analyzing live legal streams...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating AI Enhancements Module -->
+            <div class="enhancements-module glass-panel border-glow">
+                <div class="module-tabs">
+                    <button class="tab-btn active" onclick="switchTab('summary')"><i class="fa-solid fa-list-check"></i>
+                        Summarizer</button>
+                    <button class="tab-btn" onclick="switchTab('citation')"><i class="fa-solid fa-diagram-project"></i>
+                        Graph</button>
+                    <button class="tab-btn" onclick="switchTab('draft')"><i class="fa-solid fa-file-pen"></i>
+                        Draft</button>
+                </div>
+
+                <div class="tab-content active" id="tab-summary">
+                    <div class="summary-actions">
+                        <button class="btn-micro outline active">1-Click Brief</button>
+                        <button class="btn-micro outline">Judge View</button>
+                        <button class="btn-micro outline">Lawyer View</button>
+                    </div>
+                    <div class="summary-text custom-scrollbar">
+                        <ul class="clean-list">
+                            <li><span class="text-blue">Facts:</span> Dispute over property inheritance.</li>
+                            <li><span class="text-blue">Issue:</span> Validity of unregistered will.</li>
+                            <li><span class="text-emerald">AI Insight:</span> Precedents favor defendant based on SC
+                                2018.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-citation">
+                    <div class="citation-graph-mockup">
+                        <div class="node central-node">Current</div>
+                        <div class="node n1">SC 2019</div>
+                        <div class="node n2">IPC 420</div>
+                        <div class="node n3">HC 2021</div>
+                    </div>
+
+                    <div class="precedent-strength mt-3">
+                        <label class="micro-text">Precedent Strength</label>
+                        <div class="strength-bar">
+                            <div class="fill bg-green" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="tab-draft">
+                    <button class="btn-primary full-width mb-3" id="btnAutoDraft" onclick="startAutoDraft()">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Auto Draft Judgment
+                    </button>
+                    <div class="draft-content" id="draftContent">
+                        <div class="draft-skeleton">
+                            <div class="skel-line w-100"></div>
+                            <div class="skel-line w-80"></div>
+                            <div class="skel-line w-90"></div>
+                            <div class="skel-line w-60"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Live Supreme Court Feed -->
+            <div class="live-feed glass-panel mt-3">
+                <div class="feed-header mb-2">
+                    <h4 class="text-red"><i class="fa-solid fa-satellite-dish blink"></i> Supreme Court Live</h4>
+                </div>
+                <div class="feed-marquee"
+                    style="background: rgba(0,0,0,0.2); padding: 10px; border-radius: 6px; font-family: monospace; font-size: 12px; color: var(--accent-blue);">
+                    <marquee behavior="scroll" direction="left" scrollamount="4">BREAKING: SC upholds Tribunal
+                        validity
+                        in taxation dispute | Landmark ruling on digital privacy acts...</marquee>
+                </div>
+            </div>
+
+            <!-- Floating AI Orb Assistant -->
+            <div class="floating-orb" id="aiOrb" onclick="toggleOrbChat()">
+                <div class="orb-core"></div>
+                <div class="orb-ring r1"></div>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Generic Modal Overlay -->
+    <div id="modalOverlay" class="modal-overlay hidden">
+        <div class="modal-content glass-panel" id="modalBox">
+            <button class="close-btn" onclick="closeModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div id="modalBody">
+                <!-- Dynamic Content -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Secure Judge Verification Modal -->
+    <div id="secureModalOverlay" class="modal-overlay hidden">
+        <div class="modal-content glass-panel"
+            style="border: 1px solid var(--accent-red); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); max-width: 400px;">
+            <button class="close-btn" onclick="closeSecureModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div id="secureModalBody" style="text-align: center;">
+                <h3 style="color: var(--accent-red); margin-bottom: 5px;"><i class="fa-solid fa-lock"></i> Judicial
+                    Identity Verification Required</h3>
+                <p style="font-size: 12px; color: var(--text-muted); margin-bottom: 20px;">Restricted Area. Authorized
+                    Judges Only.</p>
+
+                <div class="scanner-wrapper" id="secureScannerWrapper" style="margin: 0 auto 15px auto;">
+                    <video id="secureIdVideo" autoplay playsinline></video>
+                    <div class="scanner-corner top-left" style="border-color: var(--accent-red);"></div>
+                    <div class="scanner-corner top-right" style="border-color: var(--accent-red);"></div>
+                    <div class="scanner-corner bottom-left" style="border-color: var(--accent-red);"></div>
+                    <div class="scanner-corner bottom-right" style="border-color: var(--accent-red);"></div>
+                    <div class="scan-line"
+                        style="background: var(--accent-red); box-shadow: 0 0 10px var(--accent-red);"></div>
+                </div>
+                <div class="scanner-text" id="secureScannerText" style="color: var(--accent-red);">Awaiting Video
+                    Feed...</div>
+
+                <div style="margin-top:15px; display:flex; gap:10px;">
+                    <button class="btn-primary" style="flex:1" onclick="startSecureIDCamera()">Init Scanner</button>
+                    <button id="secureVerifyBtn" class="btn-success"
+                        style="flex:1; background: var(--accent-red); border-radius: 8px; color: white; border: none;"
+                        onclick="verifySecureIDCard()">Scan ID</button>
+                </div>
+
+                <div id="remainingAttemptsText"
+                    style="margin-top: 15px; font-size: 11px; font-family: monospace; color: var(--accent-red); font-weight: bold;">
+                    System Status: Secure
+                </div>
+
+                <div id="secureIdResult" style="margin-top:10px; font-size:0.9rem;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Short System Alarm Base64 -->
+    <audio id="lockoutAlarm" preload="auto"
+        src="data:audio/mp3;base64,//NExAAAAANIAAAAAExBTUUzLjEwMKqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+        loop="false"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
